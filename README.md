@@ -30,8 +30,17 @@ JAVA_HOME=<path_to_jdk_home> mvn package
 
 In order to run the application (by default port 8080):
 
+### Via maven
 ```bash
 mvn spring-boot:run
+```
+### Via docker
+```bash
+# Build the Docker image
+docker build -t popular-repos .
+
+# Run the Docker container
+docker run -p 8080:8080 popular-repos
 ```
 
 ## API used

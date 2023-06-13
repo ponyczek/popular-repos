@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.sa</groupId>
-    <artifactId>github</artifactId>
+    <artifactId>popular-repos</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>popular-repos</name>
     <description>popular-repos</description>
